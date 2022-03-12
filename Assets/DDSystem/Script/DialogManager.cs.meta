@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 07f3da1b4b00cd542a74d707c719f823
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Printer: {instanceID: 0}
+  - Characters: {instanceID: 0}
+  - Printer_Text: {instanceID: 0}
+  - SEAudio: {instanceID: 0}
+  - CallAudio: {instanceID: 0}
+  - Selector: {instanceID: 0}
+  - SelectorItem: {instanceID: 0}
+  - SelectorItemText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
