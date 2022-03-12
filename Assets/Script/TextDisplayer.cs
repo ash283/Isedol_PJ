@@ -9,6 +9,8 @@ public class TextDisplayer : MonoBehaviour
     public Text dialogueText;
     IEnumerator showDialogueTextCoroutine;
 
+
+
     public void setText(string speaker, string content)
     {
         nameText.text = speaker;
@@ -23,7 +25,6 @@ public class TextDisplayer : MonoBehaviour
     IEnumerator showDialogueText(string text, float secondPerChar = 0.02F)
     {
         int textIndex = 1;
-
         while (textIndex <= text.Length)
         {
             dialogueText.text = text.Substring(0, textIndex++);
