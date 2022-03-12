@@ -7,9 +7,10 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       foreach(var script in new CsvLoader().loadCsv())
+        TextDisplayer textDisplayer = FindObjectOfType<TextDisplayer>();
+        foreach (var script in new CsvLoader().loadCsv())
         {
-            Debug.Log(script.speaker + "says" + script.content);
+            textDisplayer.setText(script.speaker, script.content);
         }
     }
 
