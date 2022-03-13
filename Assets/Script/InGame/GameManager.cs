@@ -10,13 +10,13 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        foreach (var script in new CsvLoader().loadCsv())
-        {
-            commandList.Add(new Say(script.speaker, script.content));
-        }
+        commandList = Scenario.getS1();
 
         commandIterator = commandList.GetEnumerator();
-
+        if (commandIterator.MoveNext())
+        {
+            commandIterator.Current.Invoke();
+        }
 
     }
 
