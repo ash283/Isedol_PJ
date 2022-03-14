@@ -10,7 +10,9 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        commandList = Scenario.getS1();
+        //commandList = Scenario.getS1();
+
+        commandList = CsvLoader.loadCsv();
 
         commandIterator = commandList.GetEnumerator();
         if (commandIterator.MoveNext())
