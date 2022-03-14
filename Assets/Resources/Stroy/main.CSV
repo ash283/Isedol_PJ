@@ -1,6 +1,28 @@
 speaker,content,actionNumber,parameter
-아이네,안녕월드!,0,
-아이네,반가워,0,
-아이네,이건 테스트야,0,
-아이네,아하하,0,
-아이네,이세돌 최고!,0,
+,,1,alarm
+주인공,아...음...,0,
+,,2,
+,아... 힘들어,0,
+,나는 알람을 끄고도 자리에서 한동안 움직이지 않았다.,0,
+주인공,...오늘은 뭐하지,0,
+,,10,
+주인공,아 왁굳형 유투브나 봐야겠다.
+
+
+
+/// <summary>
+/// actionNuber
+/// 0 - Say
+/// 1 - Play Sound
+/// 2 - Stop Sound
+/// 3 - Transition01
+/// 4 - Hide Phone
+/// 5 - FadeIn
+/// 6 - FadeOut
+/// 7 - Show Character
+/// 8 - Hide Character
+/// 9 - Change Background
+///10 - Show Phone
+/// parameter
+/// Button, Bell, Phone ring, 
+/// </summary>
